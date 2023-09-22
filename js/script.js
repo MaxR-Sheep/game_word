@@ -40,9 +40,9 @@ const initTimer = (maxTime) => {
   timer = setInterval(() => {
     if (maxTime > 0) {
       maxTime--;
-      return (timeText.innertext = maxTime);
+      return (timeText.innerText = maxTime);
     }
-    alert("Temps écouler!${correctWord.toUpperCase()} était le bon mot");
+    alert(`Temps écouler!${correctWord.toUpperCase()} était le bon mot`);
     initGame();
   }, 1000);
 };
@@ -66,3 +66,19 @@ const initGame = () => {
 initGame();
 
 // btn validation
+
+const checkWord = () => {
+  let userWord = inputField.value.toLowerCase();
+  if (!userWord) {
+    return alert("Merci de renter un mot pour valider!");
+  }
+  if (userWord !== correctWord) {
+    return alert(`OOOOHHHH!!!! ${userWord} n'est pas le bon mot`);
+  } else {
+    alert(`Félicitation! ${correctWord.toUpperCase()} est le bon mot`);
+  }
+  initGame();
+};
+
+refreshBtn.addEventListener("click", initGame);
+checkBtn.addEventListener("click", checkWord);
