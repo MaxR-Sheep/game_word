@@ -100,18 +100,18 @@ body {
   transform: scale(0.97);
 }
 
-.buttons .refresh-world {
+.buttons .refresh-word {
   background-color: #6c757d;
 }
 
-.buttons .refresh-world:hover {
+.buttons .refresh-word :hover {
   background: #5f666d;
 }
 
-.buttons .ckeck-word {
+.buttons .check-word {
   background: #2397e0;
 }
 
-.buttons .ckeck-word:hover {
+.buttons .check-word :hover {
   background: #2c52ed;
 }
