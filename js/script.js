@@ -22,6 +22,22 @@ let words = [
     word: "javascript",
     hint: "Langage de programmation",
   },
+  {
+    word: "tarot",
+    hint: "Jeux de carte pouvant se joué à 5",
+  },
+  {
+    word: "peinture",
+    hint: "Utiliser pour de l'art ou des batiments",
+  },
+  {
+    word: "luffy",
+    hint: "Célèbre capitaine des chapeaux de paille",
+  },
+  {
+    word: "yhwh",
+    hint: "Nom de Dieu",
+  },
 ];
 
 /*----------------JS avec fonction---------------------------*/
