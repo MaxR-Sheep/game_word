@@ -1,7 +1,10 @@
 /*----------------------MOTS-----------------------------------*/
 
 let words = [
-  { word: "skywalker", hint: "Nom trés célébre dans Star Wars" },
+  {
+    word: "skywalker",
+    hint: "Nom trés célébre dans Star Wars",
+  },
   {
     word: "playstation",
     hint: "Nom d'une console de Jeux Video ",
@@ -37,6 +40,26 @@ let words = [
   {
     word: "yhwh",
     hint: "Nom de Dieu",
+  },
+  {
+    word: "voiture",
+    hint: "Moyen de transport",
+  },
+  {
+    word: "matela",
+    hint: "Permet de dormir dessus",
+  },
+  {
+    word: "labyrinthe",
+    hint: "Lieu ou l'on peut facilement se perdre",
+  },
+  {
+    word: "chaussette",
+    hint: "Permet de ne pas avoir froid au pied",
+  },
+  {
+    word: "camera",
+    hint: "Objet pour transmettre une image video",
   },
 ];
 
